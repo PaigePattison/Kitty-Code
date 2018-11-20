@@ -1,0 +1,34 @@
+h1{
+  font-size: 70px;
+  position: bottom;
+}
+h3{
+  font-size: 20px;
+  color: white;
+}
+ul{
+  border-radius: 25px;
+  padding: 10px;
+  height: 20px;
+  background-color: rgba(128, 128, 128, 1);
+  margin: 0px 0px 0px 0px;
+}
+.headerinfo {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+a{
+  color: black;
+}
+header {
+  border-radius: 25px;
+  background-image: url("cateye.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+  height: 220px;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+}
