@@ -33,8 +33,8 @@ header {
   font-family: helvetica;
 }
 footer {
-  border-radius: 25px;
   background-color: pink;
+  padding: 25px;
   height: 220px;
   text-align: center;
   color: white;
