@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About us</title>
+  <title>Contact us</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -17,7 +17,16 @@
     <li class="headerinfo"><a href="contact.html"> Contact </a></li>
     </ul>
   </header>
-
+  <form>
+    <h2>Want to find out more? Get in touch!</h2>
+    <label>Your name:</label><br/>
+    <input type="text" name="name" value="Please enter your name" required/><br/>
+    <label>Your contact details:</label><br/>
+    <input type="text" name="phonenumber" value="Please enter either your phone number or email address"><br/>
+    <label>What can we help you with?</label><br/>
+    <textarea name="info" rows="8" cols="80"></textarea><br/>
+    <input type="submit" value="Submit"/>
+  </form>
   <footer>
       <p>
       <button><a type="button" class="btn btn-link.btn-xs">Site Map</a></button>
