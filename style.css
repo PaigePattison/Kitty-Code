@@ -44,5 +44,10 @@ footer {
 }
 /* this is on the indexpage */
 .catdes{
-  
+  text-align: justify;
+  font-size: 18px;
+  color: Dark grey;
+  margin: 50px 200px 50px 650px;
+  font-family: "Segoe UI";
+  box-shadow: "grumpy" "Oliver"
 }
