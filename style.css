@@ -18,6 +18,16 @@ ul{
 .headerinfo {
   display: inline;
   padding: 0px 10px 0px 10px;
+  font-weight: bold;
+}
+.headerinfo:link{
+  text-decoration: none;
+}
+.headerinfo:visited{
+  text-decoration: none;
+}
+.headerinfo:hover{
+  opacity: 0.5;
 }
 a{
   color: black;
@@ -40,6 +50,7 @@ a.homeNav:link{
 a.homeNav:visited{
   text-decoration: none;
 }
+/* this is style for footer */
 footer {
   background-color: pink;
   padding: 25px;
