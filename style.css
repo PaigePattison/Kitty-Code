@@ -1,6 +1,7 @@
 h1{
   font-size: 70px;
   position: bottom;
+  color: white;
 }
 h3{
   font-size: 20px;
@@ -33,6 +34,12 @@ header {
   color: white;
   font-family: helvetica;
 }
+a.homeNav:link{
+  text-decoration: none;
+}
+a.homeNav:visited{
+  text-decoration: none;
+}
 footer {
   background-color: pink;
   padding: 25px;
@@ -41,6 +48,7 @@ footer {
   color: white;
   font-family: helvetica;
   font-size: 10px;
+  border-radius: 25px;
 }
 /* this is on the indexpage */
 .catdes{
