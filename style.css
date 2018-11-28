@@ -44,5 +44,37 @@ footer {
 }
 /* this is on the indexpage */
 .catdes{
-  
+
+}
+/* this is the contact page */
+.contactus{
+  font-family: helvetica;
+  text-align: center;
+}
+input[type=text]{
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  font-size: 12px;
+  border-radius: 5px;
+}
+textarea{
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.submitbut{
+  margin: 0 0 10px 0;
+  background: rgba(0, 153, 76);
+  border-radius: 5px;
+  font-size: 16px;
+}
+.submitbut:hover{
+  opacity: 0.5;
 }
