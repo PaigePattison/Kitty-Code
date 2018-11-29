@@ -107,3 +107,10 @@ textarea{
 .submitbut:hover{
   opacity: 0.5;
 }
+.about-page{
+  text-align: justify;
+  font-size: 18px;
+  color: Dark grey;
+  margin: 50px 300px 50px 300px;
+  font-family: "Segoe UI";
+  box-shadow: "grumpy" "Oliver"
