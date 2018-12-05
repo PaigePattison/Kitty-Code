@@ -183,3 +183,12 @@ textarea{
   margin: 50px 300px 50px 300px;
   font-family: "Segoe UI";
   box-shadow: "grumpy" "Oliver"
+  /* shop page */
+}
+.shoptable{
+  margin: 50px 300px 50px 300px;
+}
+.post2{
+  width: 100px;
+  height: 300px;
+}
