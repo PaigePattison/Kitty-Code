@@ -7,6 +7,10 @@ h3{
   font-size: 20px;
   color: white;
 }
+h4{
+  font-family: courier;
+  font-size: 20px;
+}
 ul{
   border-radius: 25px;
   padding: 10px;
@@ -15,11 +19,11 @@ ul{
   margin: 0px 0px 0px 0px;
 }
 ol{
-  font-family: helvetica;
+  font-family: courier;
   font-size: 16px;
 }
 p{
-  font-family: helvetica;
+  font-family: courier;
   font-size: 16px;
 }
 /* this is for the header on all pages*/
@@ -50,7 +54,7 @@ header {
   height: 220px;
   text-align: center;
   color: white;
-  font-family: helvetica;
+  font-family: courier;
 }
 a.homeNav:link{
   text-decoration: none;
@@ -65,21 +69,21 @@ footer {
   height: 30px;
   text-align: center;
   color: white;
-  font-family: helvetica;
+  font-family: courier;
   font-size: 10px;
   border-radius: 25px;
 }
 /* this is on the indexpage */
 .catdes{
   text-align: justify;
-  font-size: 14px;
+  font-size: 18px;
   color: grey;
   font-family: courier;
 }
  .colaimg {
   width: 190px;
   height: 240px;
-  border: solid 2px black;
+  border: solid 2px rgba(225, 224, 225);
   background: white;
   display: inline;
   float: left;
@@ -91,7 +95,7 @@ footer {
 .oliverimg{
   width: 250px;
   height: 190px;
-  border: solid 2px black;
+  border: solid 2px rgba(225, 224, 225);
   background: white;
   display: inline;
   float: left;
@@ -103,7 +107,7 @@ footer {
 .agathaimg{
   width: 160px;
   height: 210px;
-  border: solid 2px black;
+  border: solid 2px rgba(225, 224, 225);
   background: white;
   display: inline;
   float: left;
@@ -121,7 +125,7 @@ td{
 }
 /* Donate page */
 .donateform{
-  font-family: helvetica;
+  font-family: courier;
   text-align: center;
 }
 input[type=number]{
@@ -146,7 +150,7 @@ input[type=number]{
 }
 /* this is the contact page */
 .contactus{
-  font-family: helvetica;
+  font-family: courier;
   text-align: center;
 }
 input[type=text]{
