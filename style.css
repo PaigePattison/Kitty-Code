@@ -1,0 +1,127 @@
+h1{
+  font-size: 70px;
+  position: bottom;
+  color: white;
+}
+h3{
+  font-size: 20px;
+  color: white;
+}
+ul{
+  border-radius: 25px;
+  padding: 10px;
+  height: 20px;
+  background-color: rgba(128, 128, 128, 1);
+  margin: 0px 0px 0px 0px;
+}
+/* this is for the header on all pages*/
+.headerinfo {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  font-weight: bold;
+}
+.headerinfo:link{
+  text-decoration: none;
+}
+.headerinfo:visited{
+  text-decoration: none;
+}
+.headerinfo:hover{
+  opacity: 0.5;
+}
+a{
+  color: black;
+}
+header {
+  border-radius: 25px;
+  background-image: url("cateye2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+  height: 220px;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+}
+a.homeNav:link{
+  text-decoration: none;
+}
+a.homeNav:visited{
+  text-decoration: none;
+}
+/* this is style for footer */
+footer {
+  background-color: pink;
+  padding: 25px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 10px;
+  border-radius: 25px;
+}
+/* this is on the indexpage */
+.catdes{
+  text-align: justify;
+  font-size: 14px;
+  color: grey;
+  font-family: courier;
+}
+.colaimg{
+  width:190px;
+  height:240px;
+}
+.oliverimg{
+  width: 250px;
+  height: 190px;
+}
+.agathaimg{
+  width: 160px;
+  height: 250px;
+}
+table{
+  margin: 0px 100px 0px 100px;
+}
+td{
+  padding-left: 30px;
+}
+/* this is the contact page */
+.contactus{
+  font-family: helvetica;
+  text-align: center;
+}
+input[type=text]{
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  font-size: 12px;
+  border-radius: 5px;
+}
+textarea{
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.submitbut{
+  margin: 0 0 10px 0;
+  background: rgba(0, 153, 76);
+  border-radius: 5px;
+  font-size: 16px;
+}
+.submitbut:hover{
+  opacity: 0.5;
+}
+.about-page{
+  text-align: justify;
+  font-size: 18px;
+  color: Dark grey;
+  margin: 50px 300px 50px 300px;
+  font-family: "Segoe UI";
+  box-shadow: "grumpy" "Oliver"
