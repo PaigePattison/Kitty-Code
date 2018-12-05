@@ -119,6 +119,31 @@ td{
   padding-left: 30px;
   padding-bottom: 30px;
 }
+/* Donate page */
+.donateform{
+  font-family: helvetica;
+  text-align: center;
+}
+input[type=number]{
+  width: 20%;
+  height: 20px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.donatebut{
+  height: 35px;
+  margin: 0 0 10px 0;
+  background: rgba(255, 250, 205);
+  border-radius: 5px;
+  font-size: 16px;
+}
+.donatebut:hover{
+  opacity: 0.5;
+}
 /* this is the contact page */
 .contactus{
   font-family: helvetica;
